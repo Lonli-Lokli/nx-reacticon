@@ -1,0 +1,23 @@
+{
+  "root": "libs/svg-icon",
+  "sourceRoot": "libs/svg-icon/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/svg-icon/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/svg-icon"],
+      "options": {
+        "jestConfig": "libs/svg-icon/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

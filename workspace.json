@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "header": "libs/header",
     "icons": "apps/icons",
     "icons-e2e": "apps/icons-e2e",
     "svg-icon": "libs/svg-icon"

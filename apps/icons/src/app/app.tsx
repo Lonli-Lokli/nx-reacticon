@@ -1,15 +1,8 @@
-import styled from 'styled-components';
-import NxWelcome from './nx-welcome';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { Header } from "@react-svgicon/header";
 
 export function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="icons" />
-    </StyledApp>
+   <Header title="My Home" />
   );
 }
 
